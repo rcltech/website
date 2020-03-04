@@ -3,13 +3,14 @@
 body, html {
     height: 100vh;
     text-align: center;
-    background-color: #beebe9;
+ 
     margin: 0;
     scroll-behavior: smooth;
 }
 
 .header-image {
     height: 100vh;
+    
 }
 
 .header-text {
