@@ -10,7 +10,7 @@ function App() {
   
   <SubHeading subheading="Our Team" ></SubHeading>
 
-  <TeamMember url="utkarsh" name="Utkarsh Gupta" job="Founder" about="Software engineer, Hobbyist in Electronics"></TeamMember>
+  <TeamMember url="utkarsh" name="Utkarsh Goel" job="Founder" about="Software engineer, Hobbyist in Electronics"></TeamMember>
   <TeamMember url="seanchok" name="Sean Chok" job="Developer | Maker" about="Web Developer"></TeamMember>
   <TeamMember url="gela" name="Seyoung Park" job="Designer" about="Communication design, media production"></TeamMember>
   <TeamMember url="welvin" name="Welvin Bun" job="Developer" about="Web Developer"></TeamMember>
