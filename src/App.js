@@ -2,6 +2,7 @@ import React from 'react';
 import TeamMember from './components/TeamMember';
 import Header from './components/Header'
 import SubHeading from './components/SubHeading'
+import ProjectCard from './components/ProjectCard';
 
 function App() {
   return (
@@ -18,6 +19,14 @@ function App() {
   <TeamMember url="siddhant" name="Siddhant Bagri" job="Developer" about="Web Developer"></TeamMember>
 
   <SubHeading subheading="Our Projects" ></SubHeading>
+
+  
+  <ProjectCard url="owl" projectName="Owl" link="https://owl.rctech.club/#/" name="Hall Booking Facility" about="Booking system to book various common areas within the hall">
+  </ProjectCard>
+
+  <ProjectCard url="sls" projectName="SLS" link="https://sls.rctech.club/" name="Smart Laundry System" about="Booking system to book various common areas within the hall">
+  </ProjectCard>
+  <br/><br/><br/>
   </div>
   )
 }

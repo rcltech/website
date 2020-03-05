@@ -1,0 +1,42 @@
+
+.listOfCards {
+    display: inline;
+    flex-wrap: wrap;
+  }
+  
+  .ProjectCard {  
+    display: inline-block;
+    width: 452px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px black;
+    margin: 10px;
+    background: #0c2b5e;  
+    background: -webkit-linear-gradient(to left, #0c2b5e, #173c77); 
+    background: linear-gradient(to left, #0c2b5e, #173c77);
+  }
+  
+  .ProjectCard img {
+    float: left;
+    width: 226px;
+    height: 290px;
+    margin-top: 5px;
+    border-radius: 10%;
+    padding: 1em;
+    object-fit: cover;
+  }
+  
+  .ProjectCardTop {
+    height: 22%;
+    overflow: visible;
+  }
+  
+
+  .ProjectCardBottom::-webkit-scrollbar {width: 3px; height:1px;transition:all .5s;z-index:10;}
+  .ProjectCardBottom::-webkit-scrollbar-track {background-color: #0c2b5e;}
+  .ProjectCardBottom::-webkit-scrollbar-thumb {
+    background-color: #bec4c8; 
+    border-radius:3px;
+  }
+  
+ 
