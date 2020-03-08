@@ -3,10 +3,13 @@ import TeamMember from './components/TeamMember';
 import Header from './components/Header'
 import SubHeading from './components/SubHeading'
 import ProjectCard from './components/ProjectCard';
+import NavBar from './components/NavBar';
+
 
 function App() {
   return (
   <div>
+  <NavBar/>
   <Header />
   
   <SubHeading subheading="Our Team" ></SubHeading>
@@ -26,6 +29,7 @@ function App() {
 
   <ProjectCard url="sls" projectName="SLS" link="https://sls.rctech.club/" name="Smart Laundry System" about="Booking system to book various common areas within the hall">
   </ProjectCard>
+  
   <br/><br/><br/>
   </div>
   )
