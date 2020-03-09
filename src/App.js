@@ -11,7 +11,7 @@ function App() {
   <div>
   <NavBar/>
   <Header />
-  
+  <a id="Team"><br/></a>
   <SubHeading subheading="Our Team" ></SubHeading>
 
   <TeamMember url="utkarsh" name="Utkarsh Goel" job="Founder" about="Software engineer, Hobbyist in Electronics"></TeamMember>
@@ -20,7 +20,7 @@ function App() {
   <TeamMember url="welvin" name="Welvin Bun" job="Developer" about="Web Developer"></TeamMember>
   <TeamMember url="janvi" name="Janvi Sharma" job="Developer" about="Web Developer"></TeamMember>
   <TeamMember url="siddhant" name="Siddhant Bagri" job="Developer" about="Web Developer"></TeamMember>
-
+  
   <SubHeading subheading="Our Projects" ></SubHeading>
 
   
@@ -29,7 +29,7 @@ function App() {
 
   <ProjectCard url="sls" projectName="SLS" link="https://sls.rctech.club/" name="Smart Laundry System" about="Booking system to book various common areas within the hall">
   </ProjectCard>
-  
+  <a id="Projects"><br/></a>
   <br/><br/><br/>
   </div>
   )
