@@ -7,7 +7,7 @@ class TeamMember extends Component {
         return(   
         <div className='UserCard'>
             <div className='UserCardTop'>
-                <img src={require('./Images/'+this.props.url+'.jpg')} />
+                <img alt="user image" src={require('./Images/'+this.props.url+'.jpg')} />
             </div>
             <div className='UserCardBottom'>
                 <h2>{this.props.name}</h2>

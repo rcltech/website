@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
     return(
         <div className='ProjectCard'>
             <div className='ProjectCardTop'>
-            <a href={props.link}><img src={require('./Images/'+props.url+'.jpg')} /></a>
+            <a href={props.link}><img alt="project card" src={require('./Images/'+props.url+'.jpg')} /></a>
             </div>
             <div className='ProjectCardBottom'>
                 <h1>{props.projectName}</h1>
