@@ -1,5 +1,6 @@
 
   .topnav {
+    
     background-color: #333;
     overflow: hidden;
     z-index: 1;
@@ -9,10 +10,13 @@
    width: 100%;
 
   }
-
+ .logo {
+   width:18px;
+   height: 18px;
+ }
 
   .topnav a {
-    float: left;
+    float: right;
     display: block;
 
     color: white;
@@ -22,8 +26,18 @@
     text-decoration: none;
 
   }
+  .topnav p{
+    float: right;
+    display: block;
+
+    color: white;
+    font-size:120%;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
 
 
-  .topnav a:hover {
+  .links a:hover {
     background-color: #111;
   }

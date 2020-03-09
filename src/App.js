@@ -10,18 +10,9 @@ function App() {
   return (
   <div>
   <NavBar/>
-  <Header />
-  <a id="Team"><br/></a>
-  <SubHeading subheading="Our Team" ></SubHeading>
-
-  <TeamMember url="utkarsh" name="Utkarsh Goel" job="Founder" about="Software engineer, Hobbyist in Electronics"></TeamMember>
-  <TeamMember url="seanchok" name="Sean Chok" job="Developer | Maker" about="Web Developer"></TeamMember>
-  <TeamMember url="gela" name="Seyoung Park" job="Designer" about="Communication design, media production"></TeamMember>
-  <TeamMember url="welvin" name="Welvin Bun" job="Developer" about="Web Developer"></TeamMember>
-  <TeamMember url="janvi" name="Janvi Sharma" job="Developer" about="Web Developer"></TeamMember>
-  <TeamMember url="siddhant" name="Siddhant Bagri" job="Developer" about="Web Developer"></TeamMember>
-  
-  <SubHeading subheading="Our Projects" ></SubHeading>
+  <br/>
+  <a id="Projects"><br/></a>
+  <SubHeading subheading="Our Applications" ></SubHeading>
 
   
   <ProjectCard url="owl" projectName="Owl" link="https://owl.rctech.club/#/" name="Hall Booking Facility" about="Booking system to book various common areas within the hall">
@@ -29,7 +20,23 @@ function App() {
 
   <ProjectCard url="sls" projectName="SLS" link="https://sls.rctech.club/" name="Smart Laundry System" about="Booking system to book various common areas within the hall">
   </ProjectCard>
-  <a id="Projects"><br/></a>
+  <br/>
+  <a id="Team"></a> 
+    <br/>
+
+ 
+  <SubHeading subheading="Our Team" ></SubHeading>
+ 
+  <TeamMember url="utkarsh" name="Utkarsh Goel" job="Founder" about="Software engineer, Hobbyist in Electronics"></TeamMember>
+   
+  <TeamMember url="seanchok" name="Sean Chok" job="Developer | Maker" about="Web Developer"></TeamMember>
+  <TeamMember url="gela" name="Seyoung Park" job="Designer" about="Communication design, media production"></TeamMember>
+  <TeamMember url="welvin" name="Welvin Bun" job="Developer" about="Web Developer"></TeamMember>
+  <TeamMember url="janvi" name="Janvi Sharma" job="Developer" about="Web Developer"></TeamMember>
+  <TeamMember url="siddhant" name="Siddhant Bagri" job="Developer" about="Web Developer"></TeamMember>
+  
+  
+  
   <br/><br/><br/>
   </div>
   )

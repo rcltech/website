@@ -9,9 +9,7 @@ body {
   font-size: 92%;
   font-family: 'Quicksand', sans-serif;
   color: white;
-  background: #1A2980;  
-  background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  
-  background: linear-gradient(to right, #26D0CE, #1A2980); 
+  background: linear-gradient(to right,#457fca,#5691c8)
 }
 h2, h3, h4, h5 {
   margin: 0 0 3px;

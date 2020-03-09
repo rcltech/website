@@ -11,9 +11,7 @@
     border-radius: 10px;
     box-shadow: 5px 5px 30px black;
     margin: 10px;
-    background: #0c2b5e;  
-    background: -webkit-linear-gradient(to left, #0c2b5e, #173c77); 
-    background: linear-gradient(to left, #0c2b5e, #173c77);
+    background: linear-gradient(to right,#4b6cb7,#182848)
   }
   
   .ProjectCard img {
