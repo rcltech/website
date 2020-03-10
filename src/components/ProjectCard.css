@@ -7,11 +7,12 @@
   .ProjectCard {  
     display: inline-block;
     width: 452px;
+    color: black;
     height: 300px;
     border-radius: 10px;
     box-shadow: 5px 5px 30px black;
     margin: 10px;
-    background: linear-gradient(to right,#4b6cb7,#182848)
+    background: linear-gradient(to right,#8e9eab,#eef2f3)
   }
   
   .ProjectCard img {

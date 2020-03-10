@@ -10,7 +10,7 @@ const NavBar = () => {
             
             <a href="#Team" className="btn btn-primary hvr-grow">Our Team</a>
             <a href="#Projects" className="btn btn-primary hvr-grow">Applications</a>
-            <a href="#" className="btn btn-primary hvr-grow">Home</a>
+            
             </div>
         </div>
     );
