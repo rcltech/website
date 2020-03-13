@@ -1,7 +1,7 @@
 
   .topnav {
     
-    background-color: #333;
+    background-color: #e4e4e4;
     overflow: hidden;
     z-index: 1;
     font-family: 'Oxanium';
@@ -19,7 +19,7 @@
     float: right;
     display: block;
 
-    color: white;
+    color: #0f2235;
     font-size:120%;
     text-align: center;
     padding: 8px 16px;
@@ -30,5 +30,5 @@
 
 
   .links a:hover {
-    background-color: #111;
+    background-color: #A9A9A9;
   }
