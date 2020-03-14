@@ -4,7 +4,10 @@
   margin: 1;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+  margin:0;
+}
 body {
   font-size: 92%;
   font-family: 'PT Serif', serif;
@@ -12,6 +15,8 @@ body {
   background-image: url('./Images/1.jpg');
   height: 100vh;
   background-size: cover;
+  text-align: center;
+ 
   background-position: center;
   background-attachment: fixed;
 }
@@ -32,11 +37,11 @@ h2, h3, h4, h5 {
   font-family: 'Poppins', sans-serif;
   height: 360px;
   border-radius: 10px;
-  box-shadow: 5px 5px 30px black;
+  box-shadow: 0px 0px 10px black;
   margin: 10px;
   background: #0c2b5e;  
   background: -webkit-linear-gradient(to left, #0c2b5e, #173c77); 
-  background: linear-gradient(#cdcdcd,white)
+  background: linear-gradient(to left,#cdcdcd,white)
 }
 
 .UserCard img {

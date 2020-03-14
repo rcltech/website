@@ -1,6 +1,6 @@
 import React from 'react';
 import TeamMember from './components/TeamMember';
-import Header from './components/Header'
+
 import SubHeading from './components/SubHeading'
 import ProjectCard from './components/ProjectCard';
 import NavBar from './components/NavBar';
