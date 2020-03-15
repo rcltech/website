@@ -40,3 +40,11 @@
 .Heading {
   font-size: 150%;
 }
+
+.TeamMember {
+  display: grid;
+  padding-left: 15em;
+  padding-right: 12em;
+  
+  grid-template-columns: repeat(3, 1fr);
+}

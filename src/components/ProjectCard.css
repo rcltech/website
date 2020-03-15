@@ -7,6 +7,7 @@
   .ProjectCard {  
     display: inline-block;
     width: 452px;
+    text-align: left;
     color: #0f2235;
     height: 300px;
     border-radius: 25px;
@@ -21,16 +22,17 @@
     height: 290px;
     margin-top: 5px;
     border-radius: 10%;
-    padding: 1em;
+    padding: 2em;
     object-fit: cover;
   }
-  
+
+
   .ProjectCardTop {
     height: 22%;
     overflow: visible;
   }
   
-
+  
   .ProjectCardBottom::-webkit-scrollbar {width: 3px; height:1px;transition:all .5s;z-index:10;}
   .ProjectCardBottom::-webkit-scrollbar-track {background-color: #0c2b5e;}
   .ProjectCardBottom::-webkit-scrollbar-thumb {
