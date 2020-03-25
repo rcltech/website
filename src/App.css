@@ -53,8 +53,7 @@
   display: grid;
   
   grid-template-columns: repeat(3,1fr); /* adjustment; otherwise 1fr... */ 
-  justify-items: center;
-
+  
   transform: translateX(15vw);
 }
 
@@ -69,7 +68,7 @@
     .ProjectCardList {
       display: block;
       margin: auto;
-      width: 70%;
+      width: 70vw;
     }
     .TeamMemberList{
       display: block;
