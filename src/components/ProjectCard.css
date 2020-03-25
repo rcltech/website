@@ -1,23 +1,23 @@
 
-.listOfCards {
-    display: inline;
-    flex-wrap: wrap;
-  }
-  
   .ProjectCard {  
-    display: inline-block;
-    width: 452px;
-    text-align: left;
+    width: 33vw;
+    display: table;
+    margin: 2em;
     color: #0f2235;
-    height: 300px;
+    height: 42vh;
     border-radius: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-    margin: 10px;
-    background: linear-gradient(to left,#e4c0c6,white)
+    text-align: center;
+    background: linear-gradient(to left,#e4c0c6,white);
+
+  }
+  .Row {
+    display: table-row;
   }
   
-  .ProjectCard img {
+  .ProjectCardImg img {
     float: left;
+    
     width: 226px;
     height: 290px;
     margin-top: 5px;
@@ -25,11 +25,19 @@
     padding: 2em;
     object-fit: cover;
   }
-
-
-  .ProjectCardTop {
-    height: 22%;
+  
+  
+  .ProjectCardImg {
+   
     overflow: visible;
+    margin: auto;
+    padding: 1em;
+   
+  }
+  .ProjectCardInfo {
+    padding: 2em;
+    text-align: center;
+    
   }
   
   
@@ -39,5 +47,7 @@
     background-color: #bec4c8; 
     border-radius:3px;
   }
-  
+ 
+
+
  

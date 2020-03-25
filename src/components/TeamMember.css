@@ -10,7 +10,7 @@ html {
 }
 body {
   font-size: 92%;
-  font-family: 'PT Serif', serif;
+  font-family: 'Oxanium';
   color: #0f2235;
   background-image: url('./Images/1.jpg');
   height: 100vh;
@@ -25,17 +25,15 @@ h2, h3, h4, h5 {
 }
 
 
-.listOfCards { 
-  display: grid;
-  grid-gap: 1px;
-  grid-template-columns: repeat(3, 1fr);
-}
+
 
 .UserCard {  
+  position: relative;
   padding-bottom: 1em;
   width: 290px;
   color:black;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif;*/
+  font-family: 'Oxanium';
   height: 360px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
