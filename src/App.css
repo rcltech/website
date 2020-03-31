@@ -42,41 +42,46 @@
 }
 
 .TeamMemberList {
-  /*display: grid;
-  grid-template-columns: repeat(3, 25px);
-  grid-auto-rows: 100px;                  
-  grid-row-gap: 325px;
-  grid-column-gap: 300px;
-  justify-content: center; */
   position: absolute;
   column-gap: 3vw;
   display: grid;
-  
-  grid-template-columns: repeat(3,1fr); /* adjustment; otherwise 1fr... */ 
-  
-  transform: translateX(15vw);
+  grid-template-columns: repeat(3,1fr); 
+ 
 }
 
-
 .ProjectCardList {
-  display: inline-flex;
-  grid-template-columns: repeat(3, lfr); /* adjustment; otherwise 1fr... */ 
-  justify-content: center; /* adjustment */
+  column-gap: 3vw;
+  display: grid;
+  grid-template-columns: repeat(2,1fr); 
  
 }
 @media screen and (max-width: 600px) {
     .ProjectCardList {
       display: block;
       margin: auto;
-      width: 70vw;
+      
     }
     .TeamMemberList{
       display: block;
       margin: auto;
-      width: 70%;
+      
     }
 }
 
+@media (max-width: 900px) {
+  .TeamMemberList { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.wrapperPC {
+  display: flex;
+  justify-content: center;
+}
 .owl {
   display: flex;
   align-items: center;

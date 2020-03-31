@@ -11,10 +11,10 @@
     background: linear-gradient(to left,#e4c0c6,white);
 
   }
-  .Row {
-    display: table-row;
-  }
   
+.Row {
+  display: table-row;
+}
   .ProjectCardImg img {
     float: left;
     

@@ -14,6 +14,7 @@ function App() {
   <a id="Projects"><br/></a>
   <SubHeading subheading="Our Applications" ></SubHeading>
 
+    <div className='wrapper'>
   <div className='ProjectCardList'>
     <div className='owl'>
   <ProjectCard url="owl" projectName="Owl" link="https://owl.rctech.club/#/" name="Hall Booking Facility" about="Booking system to book various common areas within the hall">
@@ -24,12 +25,17 @@ function App() {
   </ProjectCard>
   </div>
   </div>
+
+
+
+  </div>
   <br/>
   <a id="Team"></a> 
     <br/>
 
  
   <SubHeading subheading="Our Team" ></SubHeading>
+  <div className='wrapper'>
   <div className='TeamMemberList'>
     <TeamMember url="utkarsh" userlink="https://www.utkarshgoel.dev/" name="Utkarsh Goel" job="Founder" about="Software engineer, Hobbyist in Electronics"></TeamMember>
     <TeamMember url="seanchok" userlink="https://seanchok.com/" name="Sean Chok" job="Developer | Maker" about="Software Developer"></TeamMember>
@@ -37,9 +43,8 @@ function App() {
     <TeamMember url="welvin" userlink="https://www.welvin21.com/" name="Welvin Bun" job="Developer" about="Software Developer"></TeamMember>
     <TeamMember url="janvi" userlink="https://janvisharma.github.io/" name="Janvi Sharma" job="Developer" about="Software Developer"></TeamMember>
     <TeamMember url="siddhant" userlink="https://www.linkedin.com/in/siddhant-bagri-588a90184/" name="Siddhant Bagri" job="Developer" about="Software Developer"></TeamMember>
-  
   </div>
-  
+  </div>
   
   <br/><br/><br/>
   </div>
