@@ -16,6 +16,7 @@ jobs:
       deploy:
         provider: pages
         repo: rcltech/rcltech.github.io
+        target_branch: master
         skip_cleanup: true
         github_token: $GITHUB_TOKEN
         keep_history: true
