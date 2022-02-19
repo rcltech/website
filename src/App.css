@@ -1,92 +1,24 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-size: 92%;
+  font-family: 'Oxanium', sans-serif;
+  color: #0f2235;
+  background-image: url('./components/Images/1.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.Heading {
-  font-size: 150%;
-}
-
-.TeamMemberList {
-  position: absolute;
-  column-gap: 3vw;
-  display: grid;
-  grid-template-columns: repeat(3,1fr); 
- 
-}
-
-.ProjectCardList {
-  column-gap: 3vw;
-  display: grid;
-  grid-template-columns: repeat(2,1fr); 
- 
-}
-@media screen and (max-width: 600px) {
-    .ProjectCardList {
-      display: block;
-      margin: auto;
-      
-    }
-    .TeamMemberList{
-      display: block;
-      margin: auto;
-      
-    }
-}
-
-@media (max-width: 900px) {
-  .TeamMemberList { grid-template-columns: repeat(2, 1fr); }
-}
-
-
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-}
-.wrapperPC {
-  display: flex;
-  justify-content: center;
-}
-.owl {
-  display: flex;
-  align-items: center;
-}
-.sls {
-  display: flex;
-  align-items: center;
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 3px;
 }
