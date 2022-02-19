@@ -1,0 +1,50 @@
+.ProjectCard {
+  min-width: 33vw;
+  margin: 2em;
+  color: #0f2235;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  background: linear-gradient(to left, #e4c0c6, white);
+  padding: 1rem 2rem;
+}
+
+.Row {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .Row {
+    display: block;
+    align-items: normal;
+  }
+}
+
+.ProjectCardImg img {
+  margin-top: 5px;
+  border-radius: 10%;
+  padding: 2em;
+  width: 220px;
+  height: 269px;
+  object-fit: cover;
+}
+
+.ProjectCardInfo {
+  padding: 2em;
+  text-align: center;
+}
+
+.ProjectCardBottom::-webkit-scrollbar {
+  width: 3px;
+  height: 1px;
+  transition: all 0.5s;
+  z-index: 10;
+}
+.ProjectCardBottom::-webkit-scrollbar-track {
+  background-color: #0c2b5e;
+}
+.ProjectCardBottom::-webkit-scrollbar-thumb {
+  background-color: #bec4c8;
+  border-radius: 3px;
+}

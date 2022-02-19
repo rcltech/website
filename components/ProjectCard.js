@@ -1,24 +1,26 @@
 import React from 'react';
-import './ProjectCard.css';
+import Link from 'next/link';
+
+import styles from './ProjectCard.module.css';
 
 const ProjectCard = (props) => {
   return (
-    <div className="ProjectCard">
-      <div className="Row">
-        <div className="ProjectCardImg">
-          <a
-            className="text-link"
+    <div className={styles.ProjectCard}>
+      <div className={styles.Row}>
+        <div className={styles.ProjectCardImg}>
+          <Link
             target="_blank"
             rel="noopener noreferrer"
             href={props.link}
+            passHref
           >
             <img
-              alt="project card"
-              src={require('./Images/' + props.url + '.png')}
+              alt={props.projectName}
+              src={'/images/projects/' + props.url + '.png'}
             />
-          </a>
+          </Link>
         </div>
-        <div className="ProjectCardInfo">
+        <div className={styles.ProjectCardInfo}>
           <h1>{props.projectName}</h1>
           <h3>{props.name}</h3>
           <p>{props.about}</p>

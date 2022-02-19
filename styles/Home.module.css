@@ -1,4 +1,4 @@
-.Home {
+.container {
   text-align: center;
 }
 
@@ -35,19 +35,11 @@
 .wrapper {
   display: flex;
   justify-content: center;
+  max-width: 900px;
+  margin: auto;
 }
 
-.wrapperPC {
-  display: flex;
-  justify-content: center;
-}
-
-.owl {
-  display: flex;
-  align-items: center;
-}
-
-.sls {
+.ProjectCardWrapper {
   display: flex;
   align-items: center;
 }
