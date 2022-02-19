@@ -1,2 +1,8 @@
 ## Description
-A simple one page website made with react.
+
+An SPA made with react.
+
+Available routes:
+
+- homepage: `/`
+- privacy policy: `/privacy-policy`
