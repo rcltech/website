@@ -20,7 +20,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build/ -r https://github.com/rcltech/rcltech.github.io.git -b master",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
