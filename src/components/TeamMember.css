@@ -1,45 +1,17 @@
-
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-* {
-  margin: 1;
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-  margin:0;
-}
-body {
-  font-size: 92%;
-  font-family: 'Oxanium';
-  color: #0f2235;
-  background-image: url('./Images/1.jpg');
-  height: 100vh;
-  background-size: cover;
-  
-  text-align: center;
-  background-position: center;
-  background-attachment: fixed;
-}
-h2, h3, h4, h5 {
-  margin: 0 0 3px;
-}
-
-.UserCard { 
-  flex: 1; 
+.UserCard {
+  flex: 1;
   position: relative;
   padding-bottom: 1em;
   width: 290px;
   display: table;
-  color:black;
-  /* font-family: 'Poppins', sans-serif;*/
-  font-family: 'Oxanium';
+  color: black;
   height: 360px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   margin: 10px;
-  background: #0c2b5e;  
-  background: -webkit-linear-gradient(to left, #0c2b5e, #173c77); 
-  background: linear-gradient(to left,#cdcdcd,white)
+  background: #0c2b5e;
+  background: -webkit-linear-gradient(to left, #0c2b5e, #173c77);
+  background: linear-gradient(to left, #cdcdcd, white);
 }
 .OuterWrap {
   display: flex;
@@ -71,10 +43,16 @@ h2, h3, h4, h5 {
   overflow-wrap: break-word;
 }
 
-.UserCardBottom::-webkit-scrollbar {width: 3px; height:1px;transition:all .5s;z-index:10;}
-.UserCardBottom::-webkit-scrollbar-track {background-color: #0c2b5e;}
-.UserCardBottom::-webkit-scrollbar-thumb {
-  background-color: #bec4c8; 
-  border-radius:3px;
+.UserCardBottom::-webkit-scrollbar {
+  width: 3px;
+  height: 1px;
+  transition: all 0.5s;
+  z-index: 10;
 }
-
+.UserCardBottom::-webkit-scrollbar-track {
+  background-color: #0c2b5e;
+}
+.UserCardBottom::-webkit-scrollbar-thumb {
+  background-color: #bec4c8;
+  border-radius: 3px;
+}

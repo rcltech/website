@@ -1,0 +1,53 @@
+.Home {
+  text-align: center;
+}
+
+.TeamMemberList {
+  position: absolute;
+  column-gap: 3vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ProjectCardList {
+  column-gap: 3vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 600px) {
+  .ProjectCardList {
+    display: block;
+    margin: auto;
+  }
+  .TeamMemberList {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .TeamMemberList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperPC {
+  display: flex;
+  justify-content: center;
+}
+
+.owl {
+  display: flex;
+  align-items: center;
+}
+
+.sls {
+  display: flex;
+  align-items: center;
+}
