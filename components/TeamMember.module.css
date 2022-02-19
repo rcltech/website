@@ -1,37 +1,32 @@
 .UserCard {
   flex: 1;
   position: relative;
-  padding-bottom: 1em;
   width: 290px;
   display: table;
   color: black;
   height: 360px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0 0 10px black;
   margin: 10px;
   background: #0c2b5e;
   background: -webkit-linear-gradient(to left, #0c2b5e, #173c77);
   background: linear-gradient(to left, #cdcdcd, white);
-}
-.OuterWrap {
-  display: flex;
-  justify-content: center;
+  padding: 2rem;
 }
 
-.UserCard img {
+.UserCardImageWrapper {
+  position: relative;
   width: 200px;
   height: 200px;
-  margin: 20px 0 0 0;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
   border-radius: 50%;
   border: 3px solid #0f2235;
-  object-fit: cover;
 }
 
 .UserCardTop {
   height: 67%;
   width: 100%;
-  overflow: hidden;
-  text-align: center;
 }
 
 .UserCardBottom {

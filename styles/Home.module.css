@@ -1,4 +1,4 @@
-.Home {
+.container {
   text-align: center;
 }
 
@@ -42,12 +42,7 @@
   justify-content: center;
 }
 
-.owl {
-  display: flex;
-  align-items: center;
-}
-
-.sls {
+.ProjectCardWrapper {
   display: flex;
   align-items: center;
 }
