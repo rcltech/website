@@ -1,11 +1,9 @@
 .ProjectCard {
-  width: 33vw;
-  display: table;
+  min-width: 33vw;
   margin: 2em;
   color: #0f2235;
-  height: 40%;
   border-radius: 25px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   text-align: center;
   background: linear-gradient(to left, #e4c0c6, white);
   padding: 1rem 2rem;
@@ -15,17 +13,23 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .Row {
+    display: block;
+    align-items: normal;
+  }
+}
+
 .ProjectCardImg img {
   margin-top: 5px;
   border-radius: 10%;
   padding: 2em;
+  width: 220px;
+  height: 269px;
   object-fit: cover;
 }
 
-.ProjectCardImg {
-  overflow: visible;
-  margin: auto;
-}
 .ProjectCardInfo {
   padding: 2em;
   text-align: center;

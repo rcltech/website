@@ -19,7 +19,7 @@ body {
   font-size: 92%;
   font-family: 'Oxanium', sans-serif;
   color: #0f2235;
-  background-image: url('../public/images/background.jpg');
+  background-image: url('/images/background.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;

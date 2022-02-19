@@ -15,11 +15,13 @@
 }
 
 .UserCardImageWrapper {
-  position: relative;
+  margin: 20px auto 0 auto;
+}
+
+.UserCardImageWrapper img {
   width: 200px;
   height: 200px;
-  overflow: hidden;
-  margin: 20px auto 0 auto;
+  object-fit: cover;
   border-radius: 50%;
   border: 3px solid #0f2235;
 }

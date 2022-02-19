@@ -1,6 +1,3 @@
-import Head from 'next/head';
-import Image from 'next/image';
-
 import NavBar from '../components/NavBar';
 import SubHeading from '../components/SubHeading';
 import ProjectCard from '../components/ProjectCard';

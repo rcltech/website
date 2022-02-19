@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import NextImage from 'next/image';
 import { IoIosLink } from 'react-icons/io';
 
 import styles from './TeamMember.module.css';
@@ -10,12 +9,7 @@ function TeamMember(props) {
     <div className={styles.UserCard}>
       <div className={styles.UserCardTop}>
         <div className={styles.UserCardImageWrapper}>
-          <NextImage
-            alt={props.name}
-            src={'/images/members/' + props.url + '.jpg'}
-            width={'200px'}
-            height={'200px'}
-          />
+          <img alt={props.name} src={'/images/members/' + props.url + '.jpg'} />
         </div>
       </div>
       <div className={styles.UserCardBottom}>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import NextImage from 'next/image';
 
 import styles from './ProjectCard.module.css';
 
@@ -10,17 +9,14 @@ const ProjectCard = (props) => {
       <div className={styles.Row}>
         <div className={styles.ProjectCardImg}>
           <Link
-            className="text-link"
             target="_blank"
             rel="noopener noreferrer"
             href={props.link}
             passHref
           >
-            <NextImage
+            <img
               alt={props.projectName}
               src={'/images/projects/' + props.url + '.png'}
-              width={'226em'}
-              height={'290em'}
             />
           </Link>
         </div>

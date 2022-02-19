@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import NextImage from 'next/image';
 
 import styles from './NavBar.module.css';
 
@@ -9,12 +8,7 @@ const NavBar = () => {
     <div className={styles.nav} id="myTopnav">
       <div className={styles.navLeft}>
         <Link href="/" passHref>
-          <NextImage
-            alt="logo"
-            src={'/images/ClubLogo.png'}
-            width={'24px'}
-            height={'24px'}
-          />
+          <img alt="logo" src={'/images/ClubLogo.png'} />
         </Link>
         <Link href="/">R.C. Tech Club</Link>
       </div>

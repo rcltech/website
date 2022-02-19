@@ -35,11 +35,8 @@
 .wrapper {
   display: flex;
   justify-content: center;
-}
-
-.wrapperPC {
-  display: flex;
-  justify-content: center;
+  max-width: 900px;
+  margin: auto;
 }
 
 .ProjectCardWrapper {
