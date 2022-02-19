@@ -89,6 +89,8 @@ function PrivacyPolicy() {
           agree to its Terms and Conditions.
         </p>
       </div>
+
+      <br />
     </div>
   );
 }
